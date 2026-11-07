@@ -1,0 +1,1003 @@
+{
+  "runId": "664b78ce-23e8-4357-8949-cb62774a3f36",
+  "flow": {
+    "id": "664b78ce-23e8-4357-8949-cb62774a3f36",
+    "status": "PASS",
+    "steps": [
+      {
+        "action": "keyboard",
+        "status": "PASS",
+        "assertion": "Roving tabs move selected state and keyboard focus"
+      },
+      {
+        "action": "approve",
+        "status": "PASS",
+        "assertion": "Jumlah usulan menunggu berkurang satu"
+      },
+      {
+        "action": "simulate",
+        "status": "PASS",
+        "assertion": "Simulasi menampilkan usulan dan risiko ekstrem"
+      },
+      {
+        "action": "messages",
+        "status": "PASS",
+        "assertion": "Tab messages aktif"
+      },
+      {
+        "action": "report",
+        "status": "PASS",
+        "assertion": "Percakapan bertambah setelah SMS AIR 61"
+      },
+      {
+        "action": "confirm",
+        "status": "PASS",
+        "assertion": "Percakapan bertambah setelah SMS YA"
+      },
+      {
+        "action": "replay",
+        "status": "PASS",
+        "assertion": "Mode replay aktif"
+      },
+      {
+        "action": "live",
+        "status": "PASS",
+        "assertion": "Mode live aktif"
+      },
+      {
+        "action": "reject",
+        "status": "PASS",
+        "assertion": "Jumlah usulan menunggu berkurang satu"
+      }
+    ],
+    "startedAt": "2026-11-07T05:20:44.657Z",
+    "currentAction": "reject",
+    "finishedAt": "2026-11-07T05:20:52.079Z"
+  },
+  "layout": {
+    "status": "PASS",
+    "requested": {
+      "width": 1440,
+      "height": 900
+    },
+    "theme": "light",
+    "iframe": {
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "devicePixelRatio": 2
+    },
+    "headline": "Tidak ada usulan yang menunggu.",
+    "checks": {
+      "hasApp": true,
+      "noHorizontalOverflow": true,
+      "queueWithinViewport": true,
+      "mapWithinViewport": true,
+      "contextWithinViewport": true,
+      "noClippedControls": true,
+      "noUnnamedButtons": true,
+      "noRuntimeErrors": true
+    },
+    "clipped": [],
+    "namelessButtons": 0,
+    "namelessButtonsDetails": [],
+    "runtimeErrors": [],
+    "boxes": {
+      "root": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "right": 1440,
+        "bottom": 900,
+        "display": "block",
+        "visibility": "visible"
+      },
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900,
+        "right": 1440,
+        "bottom": 900,
+        "display": "flex",
+        "visibility": "visible"
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 56,
+        "right": 1440,
+        "bottom": 56,
+        "display": "flex",
+        "visibility": "visible"
+      },
+      "summary": {
+        "x": 0,
+        "y": 56,
+        "width": 1440,
+        "height": 86,
+        "right": 1440,
+        "bottom": 142,
+        "display": "flex",
+        "visibility": "visible"
+      },
+      "grid": {
+        "x": 0,
+        "y": 142,
+        "width": 1440,
+        "height": 732,
+        "right": 1440,
+        "bottom": 874,
+        "display": "grid",
+        "visibility": "visible",
+        "gridTemplateColumns": "304px 816px 320px"
+      },
+      "queue": {
+        "x": 0,
+        "y": 142,
+        "width": 304,
+        "height": 732,
+        "right": 304,
+        "bottom": 874,
+        "display": "flex",
+        "visibility": "visible"
+      },
+      "map": {
+        "x": 304,
+        "y": 142,
+        "width": 816,
+        "height": 732,
+        "right": 1120,
+        "bottom": 874,
+        "display": "flex",
+        "visibility": "visible"
+      },
+      "context": {
+        "x": 1120,
+        "y": 142,
+        "width": 320,
+        "height": 732,
+        "right": 1440,
+        "bottom": 874,
+        "display": "flex",
+        "visibility": "visible"
+      }
+    },
+    "harness": {
+      "innerWidth": 1470,
+      "scrollWidth": 1470,
+      "devicePixelRatio": 2
+    },
+    "layoutMatrix": [
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 1440,
+          "height": 900
+        },
+        "theme": "light",
+        "iframe": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "right": 1440,
+            "bottom": 900,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "right": 1440,
+            "bottom": 900,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 56,
+            "right": 1440,
+            "bottom": 56,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 56,
+            "width": 1440,
+            "height": 86,
+            "right": 1440,
+            "bottom": 142,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 142,
+            "width": 1440,
+            "height": 732,
+            "right": 1440,
+            "bottom": 874,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "304px 816px 320px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 142,
+            "width": 304,
+            "height": 732,
+            "right": 304,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 304,
+            "y": 142,
+            "width": 816,
+            "height": 732,
+            "right": 1120,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 1120,
+            "y": 142,
+            "width": 320,
+            "height": 732,
+            "right": 1440,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      },
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 1440,
+          "height": 900
+        },
+        "theme": "dark",
+        "iframe": {
+          "innerWidth": 1440,
+          "innerHeight": 900,
+          "scrollWidth": 1440,
+          "bodyScrollWidth": 1440,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "right": 1440,
+            "bottom": 900,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900,
+            "right": 1440,
+            "bottom": 900,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 56,
+            "right": 1440,
+            "bottom": 56,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 56,
+            "width": 1440,
+            "height": 86,
+            "right": 1440,
+            "bottom": 142,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 142,
+            "width": 1440,
+            "height": 732,
+            "right": 1440,
+            "bottom": 874,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "304px 816px 320px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 142,
+            "width": 304,
+            "height": 732,
+            "right": 304,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 304,
+            "y": 142,
+            "width": 816,
+            "height": 732,
+            "right": 1120,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 1120,
+            "y": 142,
+            "width": 320,
+            "height": 732,
+            "right": 1440,
+            "bottom": 874,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      },
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 1024,
+          "height": 768
+        },
+        "theme": "light",
+        "iframe": {
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "scrollWidth": 1024,
+          "bodyScrollWidth": 1024,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "right": 1024,
+            "bottom": 768,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 1311.8,
+            "right": 1024,
+            "bottom": 1311.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 71,
+            "right": 1024,
+            "bottom": 71,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 71,
+            "width": 1024,
+            "height": 94.8,
+            "right": 1024,
+            "bottom": 165.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 165.8,
+            "width": 1024,
+            "height": 1120,
+            "right": 1024,
+            "bottom": 1285.8,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "512px 512px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 625.8,
+            "width": 512,
+            "height": 660,
+            "right": 512,
+            "bottom": 1285.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 0,
+            "y": 165.8,
+            "width": 1024,
+            "height": 460,
+            "right": 1024,
+            "bottom": 625.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 512,
+            "y": 625.8,
+            "width": 512,
+            "height": 660,
+            "right": 1024,
+            "bottom": 1285.8,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      },
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 1024,
+          "height": 768
+        },
+        "theme": "dark",
+        "iframe": {
+          "innerWidth": 1024,
+          "innerHeight": 768,
+          "scrollWidth": 1024,
+          "bodyScrollWidth": 1024,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 768,
+            "right": 1024,
+            "bottom": 768,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 1311.8,
+            "right": 1024,
+            "bottom": 1311.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 71,
+            "right": 1024,
+            "bottom": 71,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 71,
+            "width": 1024,
+            "height": 94.8,
+            "right": 1024,
+            "bottom": 165.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 165.8,
+            "width": 1024,
+            "height": 1120,
+            "right": 1024,
+            "bottom": 1285.8,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "512px 512px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 625.8,
+            "width": 512,
+            "height": 660,
+            "right": 512,
+            "bottom": 1285.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 0,
+            "y": 165.8,
+            "width": 1024,
+            "height": 460,
+            "right": 1024,
+            "bottom": 625.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 512,
+            "y": 625.8,
+            "width": 512,
+            "height": 660,
+            "right": 1024,
+            "bottom": 1285.8,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      },
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 768,
+          "height": 1024
+        },
+        "theme": "light",
+        "iframe": {
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "scrollWidth": 768,
+          "bodyScrollWidth": 768,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024,
+            "right": 768,
+            "bottom": 1024,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1368.5,
+            "right": 768,
+            "bottom": 1368.5,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 71,
+            "right": 768,
+            "bottom": 71,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 71,
+            "width": 768,
+            "height": 94.8,
+            "right": 768,
+            "bottom": 165.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 165.8,
+            "width": 768,
+            "height": 1176.8,
+            "right": 768,
+            "bottom": 1342.5,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "384px 384px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 625.8,
+            "width": 384,
+            "height": 716.8,
+            "right": 384,
+            "bottom": 1342.5,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 0,
+            "y": 165.8,
+            "width": 768,
+            "height": 460,
+            "right": 768,
+            "bottom": 625.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 384,
+            "y": 625.8,
+            "width": 384,
+            "height": 716.8,
+            "right": 768,
+            "bottom": 1342.5,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      },
+      {
+        "status": "PASS",
+        "requested": {
+          "width": 768,
+          "height": 1024
+        },
+        "theme": "dark",
+        "iframe": {
+          "innerWidth": 768,
+          "innerHeight": 1024,
+          "scrollWidth": 768,
+          "bodyScrollWidth": 768,
+          "devicePixelRatio": 2
+        },
+        "headline": "1 usulan menunggu keputusan Anda.",
+        "checks": {
+          "hasApp": true,
+          "noHorizontalOverflow": true,
+          "queueWithinViewport": true,
+          "mapWithinViewport": true,
+          "contextWithinViewport": true,
+          "noClippedControls": true,
+          "noUnnamedButtons": true,
+          "noRuntimeErrors": true
+        },
+        "clipped": [],
+        "namelessButtons": 0,
+        "namelessButtonsDetails": [],
+        "runtimeErrors": [],
+        "boxes": {
+          "root": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1024,
+            "right": 768,
+            "bottom": 1024,
+            "display": "block",
+            "visibility": "visible"
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 1368.5,
+            "right": 768,
+            "bottom": 1368.5,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 71,
+            "right": 768,
+            "bottom": 71,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "summary": {
+            "x": 0,
+            "y": 71,
+            "width": 768,
+            "height": 94.8,
+            "right": 768,
+            "bottom": 165.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "grid": {
+            "x": 0,
+            "y": 165.8,
+            "width": 768,
+            "height": 1176.8,
+            "right": 768,
+            "bottom": 1342.5,
+            "display": "grid",
+            "visibility": "visible",
+            "gridTemplateColumns": "384px 384px"
+          },
+          "queue": {
+            "x": 0,
+            "y": 625.8,
+            "width": 384,
+            "height": 716.8,
+            "right": 384,
+            "bottom": 1342.5,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "map": {
+            "x": 0,
+            "y": 165.8,
+            "width": 768,
+            "height": 460,
+            "right": 768,
+            "bottom": 625.8,
+            "display": "flex",
+            "visibility": "visible"
+          },
+          "context": {
+            "x": 384,
+            "y": 625.8,
+            "width": 384,
+            "height": 716.8,
+            "right": 768,
+            "bottom": 1342.5,
+            "display": "flex",
+            "visibility": "visible"
+          }
+        }
+      }
+    ],
+    "flow": {
+      "id": "664b78ce-23e8-4357-8949-cb62774a3f36",
+      "status": "PASS",
+      "steps": [
+        {
+          "action": "keyboard",
+          "status": "PASS",
+          "assertion": "Roving tabs move selected state and keyboard focus"
+        },
+        {
+          "action": "approve",
+          "status": "PASS",
+          "assertion": "Jumlah usulan menunggu berkurang satu"
+        },
+        {
+          "action": "simulate",
+          "status": "PASS",
+          "assertion": "Simulasi menampilkan usulan dan risiko ekstrem"
+        },
+        {
+          "action": "messages",
+          "status": "PASS",
+          "assertion": "Tab messages aktif"
+        },
+        {
+          "action": "report",
+          "status": "PASS",
+          "assertion": "Percakapan bertambah setelah SMS AIR 61"
+        },
+        {
+          "action": "confirm",
+          "status": "PASS",
+          "assertion": "Percakapan bertambah setelah SMS YA"
+        },
+        {
+          "action": "replay",
+          "status": "PASS",
+          "assertion": "Mode replay aktif"
+        },
+        {
+          "action": "live",
+          "status": "PASS",
+          "assertion": "Mode live aktif"
+        },
+        {
+          "action": "reject",
+          "status": "PASS",
+          "assertion": "Jumlah usulan menunggu berkurang satu"
+        }
+      ],
+      "startedAt": "2026-11-07T05:20:44.657Z",
+      "currentAction": "reject",
+      "finishedAt": "2026-11-07T05:20:52.079Z"
+    },
+    "actions": [
+      {
+        "action": "reject",
+        "status": "PASS",
+        "assertion": "Jumlah usulan menunggu berkurang satu"
+      },
+      {
+        "action": "live",
+        "status": "PASS",
+        "assertion": "Mode live aktif"
+      },
+      {
+        "action": "replay",
+        "status": "PASS",
+        "assertion": "Mode replay aktif"
+      },
+      {
+        "action": "confirm",
+        "status": "PASS",
+        "assertion": "Percakapan bertambah setelah SMS YA"
+      },
+      {
+        "action": "report",
+        "status": "PASS",
+        "assertion": "Percakapan bertambah setelah SMS AIR 61"
+      },
+      {
+        "action": "messages",
+        "status": "PASS",
+        "assertion": "Tab messages aktif"
+      },
+      {
+        "action": "simulate",
+        "status": "PASS",
+        "assertion": "Simulasi menampilkan usulan dan risiko ekstrem"
+      },
+      {
+        "action": "approve",
+        "status": "PASS",
+        "assertion": "Jumlah usulan menunggu berkurang satu"
+      },
+      {
+        "action": "keyboard",
+        "status": "PASS",
+        "assertion": "Roving tabs move selected state and keyboard focus"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "action": "reject",
+      "status": "PASS",
+      "assertion": "Jumlah usulan menunggu berkurang satu"
+    },
+    {
+      "action": "live",
+      "status": "PASS",
+      "assertion": "Mode live aktif"
+    },
+    {
+      "action": "replay",
+      "status": "PASS",
+      "assertion": "Mode replay aktif"
+    },
+    {
+      "action": "confirm",
+      "status": "PASS",
+      "assertion": "Percakapan bertambah setelah SMS YA"
+    },
+    {
+      "action": "report",
+      "status": "PASS",
+      "assertion": "Percakapan bertambah setelah SMS AIR 61"
+    },
+    {
+      "action": "messages",
+      "status": "PASS",
+      "assertion": "Tab messages aktif"
+    },
+    {
+      "action": "simulate",
+      "status": "PASS",
+      "assertion": "Simulasi menampilkan usulan dan risiko ekstrem"
+    },
+    {
+      "action": "approve",
+      "status": "PASS",
+      "assertion": "Jumlah usulan menunggu berkurang satu"
+    },
+    {
+      "action": "keyboard",
+      "status": "PASS",
+      "assertion": "Roving tabs move selected state and keyboard focus"
+    }
+  ]
+}

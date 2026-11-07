@@ -1,0 +1,164 @@
+.queue-panel, .context-panel {
+  --proposal-accent: #a65d0e;
+  color: var(--ink);
+}
+
+[data-theme='dark'] .queue-panel,
+[data-theme='dark'] .context-panel {
+  --surface: #111518;
+  --subtle: #1b2026;
+  --line: #343d47;
+  --hairline: #272f37;
+  --ink: #f0f2f5;
+  --muted: #a4adb8;
+  --link: #75caff;
+  --pending-bg: #39250e;
+  --pending-ink: #ffc178;
+  --proposal-bg: #1b160e;
+  --proposal-line: #79551f;
+  --proposal-accent: #ffb35e;
+  --positive: #76ddb0;
+  --positive-bg: #10342a;
+}
+
+.queue-panel .proposal-list {
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+.queue-panel .decision-card.triage-item {
+  padding: 16px 16px 12px;
+  margin: 0 0 14px;
+  border: 1px solid var(--proposal-line);
+  border-radius: 10px;
+  background: var(--proposal-bg);
+}
+.queue-panel .decision-card.triage-item:last-child { border-bottom: 1px solid var(--proposal-line); }
+.queue-panel .decision-card.triage-item::before {
+  display: block;
+  left: 0;
+  top: 16px;
+  bottom: 16px;
+  width: 4px;
+  background: var(--proposal-accent);
+  border-radius: 0 3px 3px 0;
+}
+.queue-panel .pending-badge {
+  padding: 3px 7px;
+  background: var(--pending-bg);
+  color: var(--pending-ink);
+  border-radius: 12px;
+  font-weight: 600;
+}
+.queue-panel .decision-benefit strong {
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: var(--subtle);
+  color: var(--muted);
+  white-space: normal;
+}
+.queue-panel .decision-benefit.has-benefit strong {
+  background: var(--positive-bg);
+  color: var(--positive);
+}
+.queue-panel .evidence { border-top: 1px solid var(--proposal-line); margin-top: 10px; }
+.queue-panel .evidence summary { padding: 10px 0 2px; color: var(--link); font-weight: 600; }
+.queue-panel .decision-actions { border-top: 0; padding-top: 0; grid-template-columns: 1fr 1fr; }
+.queue-panel .decision-actions .button:not(.primary) {
+  border-color: var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+.queue-panel .queue-simulation .simulation-button {
+  background: var(--ink);
+  color: var(--action-ink);
+  border-color: var(--ink);
+  font-weight: 600;
+}
+.queue-panel .queue-simulation .simulation-button:hover:not(:disabled) { background: var(--ink); filter: brightness(1.08); }
+.queue-panel .quick-guide { padding: 14px; border: 0; border-radius: 10px; background: var(--subtle); }
+.queue-panel .decision-chain li.current { color: var(--pending-ink); }
+.queue-panel .decision-chain li.current > span {
+  border-color: var(--proposal-accent);
+  color: var(--pending-ink);
+  background: var(--proposal-bg);
+  outline: 3px solid var(--pending-bg);
+}
+.context-panel .context-tabs button[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--ink); }
+.context-panel .muted-link { color: var(--link); }
+.context-panel .message-preview article > div > span { color: var(--link); }
+.context-panel .village-heading .risk-badge { padding: 3px 7px; }
+.context-panel .backend-benefit.has-benefit > strong { color: var(--positive); }
+.context-panel .backend-benefit.has-benefit { background: var(--positive-bg); border-radius: 6px; padding: 10px; }
+.context-panel .backend-metrics span, .context-panel .backend-benefit p { color: var(--ink); }
+
+@media (pointer: coarse) {
+  .queue-panel .evidence summary { min-height: 44px; }
+}
+
+/* Panel proportions and reading order follow image copy 2.png. */
+@media (min-width: 1200px) {
+  .operations-grid { grid-template-columns: minmax(0, 27.5fr) minmax(0, 46.3fr) minmax(0, 26.2fr); }
+}
+.queue-panel .queue-scroll { padding: 20px 16px; }
+.queue-panel .queue-heading { border: 0; padding-bottom: 0; margin-bottom: 18px; }
+.queue-panel .queue-heading h2 { font-size: 20px; }
+.queue-panel .decision-chain li > span { width: 27px; height: 27px; border-width: 2px; font-size: 13px; }
+.queue-panel .decision-chain li > span svg { width: 15px; height: 15px; }
+.queue-panel .decision-chain li::after { top: 13px; height: 2px; }
+.queue-panel .decision-chain small { font-size: 12px; }
+.queue-panel .decision-chain li.current { color: var(--ink); }
+.queue-panel .chain-description { margin-bottom: 18px; }
+.queue-panel .decision-card.triage-item { padding: 14px 20px 12px; }
+.queue-panel .decision-card.triage-item::before { top: 14px; bottom: 14px; }
+.queue-panel .pending-badge { font-size: 12px; padding: 2px 8px; }
+.queue-panel .pending-badge i { border-radius: 50%; }
+.queue-panel .decision-top .risk-badge { font-size: 12px; padding: 2px 7px; }
+.queue-panel .decision-top .risk-bars { transform: none; height: 13px; }
+.queue-panel .decision-top time { font-size: 12px; }
+.queue-panel .triage-item h3 { font-size: 16px; margin-top: 8px; }
+.queue-panel .triage-item .decision-location,
+.queue-panel .triage-item .decision-reason { font-size: 13px; }
+.queue-panel .decision-village-button { text-decoration: none; }
+.queue-panel .decision-village-button:hover { text-decoration: underline; }
+.queue-panel .triage-item .decision-reason { margin-top: 6px; }
+.queue-panel .decision-benefit { margin: 6px 0 10px; }
+.queue-panel .decision-benefit strong { font-family: 'IBM Plex Mono', monospace; font-size: 12px; }
+.queue-panel .decision-benefit > span { font-size: 12px; }
+.queue-panel .decision-actions .button { min-height: 44px; font-size: 14px; border-radius: 8px; }
+.queue-panel .evidence summary { min-height: 36px; font-size: 13px; }
+.queue-panel .queue-simulation .simulation-button { min-height: 44px; font-size: 14px; border-radius: 8px; }
+.queue-panel .simulation-caption { font-size: 12px; }
+.queue-panel .quick-guide { padding: 16px; font-size: 13px; }
+.queue-panel .quick-guide .section-caption { font-size: 12px; }
+.queue-panel .quick-guide ol { padding-left: 18px; color: var(--ink); }
+.queue-panel .queue-footnote { border: 0; padding-top: 0; font-size: 12px; }
+.context-panel .context-tabs button { font-size: 13px; }
+.context-panel .village-subtitle { font-size: 13px; }
+.context-panel .village-summary { font-size: 16px; margin: 20px 0 16px; }
+.context-panel .village-facts { list-style: disc; padding-left: 14px; font-size: 13px; }
+.context-panel .village-facts li { border: 0; padding: 4px 0; }
+.context-panel .village-facts li::marker { color: var(--muted); }
+.context-panel .message-preview article { font-size: 13px; grid-template-columns: 42px minmax(0, 1fr); }
+.context-panel .message-preview article > div > span { color: var(--muted); font-size: 12px; }
+.context-panel .message-preview time { font-size: 12px; }
+.context-panel .muted-link { color: var(--muted); font-size: 13px; }
+[data-theme='dark'] :is(.queue-panel, .context-panel) .risk-high { color: #ff9b7c; background: #411a10; border-color: #8a3824; }
+[data-theme='dark'] :is(.queue-panel, .context-panel) .risk-critical { color: #21110c; background: #ff9b85; border-color: #ff9b85; }
+
+/* Left-pane palette from the user's image copy 3.png. */
+[data-theme='dark'] .queue-panel {
+  --surface: #111518;
+  --subtle: #1b2125;
+  --proposal-bg: #1c160d;
+  --proposal-line: #80531e;
+  --proposal-accent: #ffb45f;
+  --pending-bg: #3d280d;
+  --pending-ink: #ffc078;
+  --positive-bg: #103728;
+  --positive: #69e0a5;
+  --link: #79caff;
+}
+.queue-panel .decision-card.triage-item .evidence { border-top-color: var(--proposal-line); }
+.queue-panel .decision-card.triage-item .evidence summary { color: var(--link); }
+.queue-panel .decision-chain li.current > span { color: var(--pending-ink); border-color: var(--proposal-accent); }

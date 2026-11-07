@@ -1,0 +1,742 @@
+{
+  "runId": "3052326f-ed4b-4ce2-ac1c-f4f63f4c684d",
+  "testKind": "Synthetic DOM TouchEvents, not physical hardware",
+  "viewport": {
+    "width": 768,
+    "height": 1024
+  },
+  "layout": {
+    "innerWidth": 768,
+    "scrollWidth": 768,
+    "theme": "light",
+    "noHorizontalOverflow": true
+  },
+  "running": false,
+  "current": {
+    "engine": "maplibre",
+    "ready": "true",
+    "zoom": 13.199701304012942,
+    "bearing": 0,
+    "pitch": 0,
+    "center": [
+      114.10514967695781,
+      -3.0900953568233405
+    ],
+    "touchAction": "auto",
+    "canvasContainerTouchAction": "none",
+    "rects": {
+      "root": {
+        "x": 0,
+        "y": 165.75,
+        "width": 768,
+        "height": 365.5,
+        "right": 768,
+        "bottom": 531.25
+      },
+      "riskMap": {
+        "x": 0,
+        "y": 165.75,
+        "width": 768,
+        "height": 365.5,
+        "right": 768,
+        "bottom": 531.25
+      },
+      "nativeCanvas": {
+        "x": 0,
+        "y": 165.75,
+        "width": 768,
+        "height": 366,
+        "right": 768,
+        "bottom": 531.75
+      },
+      "canvasContainer": {
+        "x": 0,
+        "y": 165.75,
+        "width": 768,
+        "height": 0,
+        "right": 768,
+        "bottom": 165.75
+      }
+    },
+    "canvasBuffer": {
+      "width": 1536,
+      "height": 732
+    },
+    "visibility": {
+      "harness": "hidden",
+      "iframe": "hidden",
+      "iframeHasFocus": false
+    },
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "firstPaint": {
+      "elapsedMs": 28,
+      "firstTimestamp": 756,
+      "timestamp": 789.4,
+      "frames": 2,
+      "visibility": "hidden"
+    }
+  },
+  "firstPaintDiagnostic": {
+    "elapsedMs": 28,
+    "firstTimestamp": 756,
+    "timestamp": 789.4,
+    "frames": 2,
+    "visibility": "hidden"
+  },
+  "lastGestureDiagnostic": {
+    "rect": {
+      "x": 0,
+      "y": 165.75,
+      "width": 768,
+      "height": 366
+    },
+    "scale": 0.915,
+    "center": {
+      "x": 368.64,
+      "y": 341.43
+    },
+    "visibility": "hidden",
+    "at": "2026-11-07T05:42:38.653Z"
+  },
+  "results": [
+    {
+      "test": "pinch",
+      "status": "PASS",
+      "assertion": "Pinch changes actual map zoom",
+      "before": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 12.4,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10600000000022,
+          -3.0905000000014695
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "after": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "gesture": {
+        "rect": {
+          "x": 0,
+          "y": 165.75,
+          "width": 768,
+          "height": 366
+        },
+        "scale": 0.915,
+        "center": {
+          "x": 368.64,
+          "y": 341.43
+        },
+        "visibility": "hidden",
+        "at": "2026-11-07T05:42:04.445Z"
+      }
+    },
+    {
+      "test": "rotate",
+      "status": "FAIL",
+      "assertion": "Two-finger rotation changes bearing",
+      "before": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "after": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "gesture": {
+        "rect": {
+          "x": 0,
+          "y": 165.75,
+          "width": 768,
+          "height": 366
+        },
+        "scale": 0.915,
+        "center": {
+          "x": 368.64,
+          "y": 341.43
+        },
+        "visibility": "hidden",
+        "at": "2026-11-07T05:42:10.653Z"
+      }
+    },
+    {
+      "test": "pitch",
+      "status": "FAIL",
+      "assertion": "Parallel two-finger vertical drag changes pitch",
+      "before": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "after": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "gesture": {
+        "rect": {
+          "x": 0,
+          "y": 165.75,
+          "width": 768,
+          "height": 366
+        },
+        "scale": 0.915,
+        "center": {
+          "x": 368.64,
+          "y": 341.43
+        },
+        "visibility": "hidden",
+        "at": "2026-11-07T05:42:24.675Z"
+      }
+    },
+    {
+      "test": "pan",
+      "status": "FAIL",
+      "assertion": "Single-finger drag changes map center",
+      "before": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "after": {
+        "engine": "maplibre",
+        "ready": "true",
+        "zoom": 13.199701304012942,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.10514967695781,
+          -3.0900953568233405
+        ],
+        "touchAction": "auto",
+        "canvasContainerTouchAction": "none",
+        "rects": {
+          "root": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "riskMap": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 365.5,
+            "right": 768,
+            "bottom": 531.25
+          },
+          "nativeCanvas": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 366,
+            "right": 768,
+            "bottom": 531.75
+          },
+          "canvasContainer": {
+            "x": 0,
+            "y": 165.75,
+            "width": 768,
+            "height": 0,
+            "right": 768,
+            "bottom": 165.75
+          }
+        },
+        "canvasBuffer": {
+          "width": 1536,
+          "height": 732
+        },
+        "visibility": {
+          "harness": "hidden",
+          "iframe": "hidden",
+          "iframeHasFocus": false
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0
+        },
+        "firstPaint": {
+          "elapsedMs": 28,
+          "firstTimestamp": 756,
+          "timestamp": 789.4,
+          "frames": 2,
+          "visibility": "hidden"
+        }
+      },
+      "gesture": {
+        "rect": {
+          "x": 0,
+          "y": 165.75,
+          "width": 768,
+          "height": 366
+        },
+        "scale": 0.915,
+        "center": {
+          "x": 368.64,
+          "y": 341.43
+        },
+        "visibility": "hidden",
+        "at": "2026-11-07T05:42:38.653Z"
+      }
+    },
+    {
+      "test": "outside",
+      "status": "PASS",
+      "assertion": "Outside-map touch is not cancelled; actual panel programmatic scroll changes position",
+      "before": 0,
+      "after": true,
+      "defaultPrevented": {
+        "start": false,
+        "move": false
+      },
+      "css": {
+        "touchAction": "auto",
+        "overflowY": "auto"
+      },
+      "limit": "Native default scrolling cannot be generated by untrusted synthetic TouchEvents"
+    }
+  ],
+  "limits": [
+    "Untrusted events do not prove native touch hardware behavior.",
+    "Outside-scroll test uses programmatic scroll plus event-cancellation observation."
+  ]
+}

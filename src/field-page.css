@@ -1,0 +1,22 @@
+.field-page { width: min(100%, 740px); min-height: 100dvh; margin: 0 auto; padding: 28px 24px; color: var(--ink); background: var(--surface); }
+.field-header { padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.field-brand { display: block; margin-bottom: 12px; font: 11px 'IBM Plex Mono', monospace; letter-spacing: .08em; color: var(--muted); }
+.field-header h1 { margin-bottom: 8px; }
+.field-header p { font-weight: 600; }
+.field-header small, .field-send small, .field-message small { color: var(--muted); font-size: 12px; }
+.field-thread { display: grid; gap: 12px; padding: 24px 0; min-height: 160px; }
+.field-message { max-width: 92%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 5px; background: var(--subtle); overflow-wrap: anywhere; }
+.field-mine { justify-self: end; background: var(--surface); }
+.field-message strong { font-size: 12px; color: var(--muted); }
+.field-message p { white-space: pre-wrap; margin: 5px 0 8px; }
+.field-compose { border-top: 1px solid var(--line); padding-top: 18px; }
+.field-compose form { display: grid; gap: 8px; margin-top: 16px; }
+.field-compose label { font-weight: 600; }
+.field-compose textarea { width: 100%; padding: 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); font: inherit; resize: vertical; }
+.field-compose button { min-height: 44px; padding: 8px 16px; border: 1px solid var(--line); border-radius: 4px; background: var(--ink); color: var(--action-ink); font-weight: 600; }
+.field-send, .field-confirm { display: flex; align-items: center; gap: 12px; justify-content: space-between; }
+.field-confirm { margin-top: 12px; justify-content: flex-start; }
+.field-confirm button:last-child { color: var(--ink); background: var(--surface); }
+.field-readback { padding: 12px; border: 1px solid var(--proposal-line); background: var(--proposal-bg); }
+.field-compose [role='alert'] { color: var(--r-critical); }
+@media (max-width: 480px) { .field-page { padding: 20px 16px; } .field-send { align-items: flex-start; flex-direction: column; } .field-send button { width: 100%; } }

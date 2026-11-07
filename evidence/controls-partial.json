@@ -1,0 +1,163 @@
+{
+  "runId": "8a1a2be7-2504-4e0a-a415-f18a3b442427",
+  "status": "PARTIAL",
+  "visibility": {
+    "harness": "visible",
+    "iframe": "visible",
+    "iframeHasFocus": true,
+    "sampledAt": "2026-11-07T05:27:53.844Z"
+  },
+  "cameraWaitError": "Error: Timeout: native map ready (45s)",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "camera": {
+    "engine": "maplibre",
+    "zoom": 12.4,
+    "bearing": 0,
+    "pitch": 0,
+    "center": [
+      114.106,
+      -3.0905
+    ]
+  },
+  "results": [
+    {
+      "name": "Proposal desa → map/context",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Village context PASS; marker matching skipped because native map not ready",
+      "assertion": "Kantan context selected, then Talio restored",
+      "markerSelected": false
+    },
+    {
+      "name": "Evidence expand → trace",
+      "status": "PASS",
+      "assertion": "Evidence and actual trace panel open"
+    },
+    {
+      "name": "Query submit",
+      "status": "PASS"
+    },
+    {
+      "name": "Help open / close",
+      "status": "PASS"
+    },
+    {
+      "name": "Menu open / Escape",
+      "status": "PASS"
+    },
+    {
+      "name": "National unavailable / pilot return",
+      "status": "PASS"
+    },
+    {
+      "name": "Layer popover and risk/hatch switches",
+      "status": "PASS",
+      "assertion": "Actual checkbox states toggle and restore",
+      "telemetry": {
+        "engine": "maplibre",
+        "zoom": 12.4,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.106,
+          -3.0905
+        ]
+      }
+    },
+    {
+      "name": "Replay seek / play / pause",
+      "status": "PASS",
+      "seek": 10,
+      "pausedIndex": 11
+    },
+    {
+      "name": "Share modal / local URL / close",
+      "status": "PASS",
+      "url": "http://127.0.0.1:5180/?qa-controls=8a1a2be7-2504-4e0a-a415-f18a3b442427&village=talio",
+      "clipboard": "not invoked"
+    },
+    {
+      "name": "SMS malformed guidance",
+      "status": "PASS"
+    },
+    {
+      "name": "SMS TIDAK rejects field report",
+      "status": "PASS"
+    },
+    {
+      "name": "SMS TELP local guidance",
+      "status": "PASS"
+    },
+    {
+      "name": "Dismiss guide",
+      "status": "PASS"
+    },
+    {
+      "name": "Camera zoom in",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera zoom out",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera rotate left",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera north",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera pitch up",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera pitch down",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera 3D on",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera 3D off",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera recenter selected village",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "No runtime errors",
+      "status": "PASS"
+    }
+  ],
+  "runtimeErrors": [],
+  "limits": [
+    "Frontend synthetic DOM controls only; no backend or real SMS.",
+    "No clipboard write or physical device gesture validation.",
+    "Runtime listeners cover iframe load onward; initial app readiness is separately asserted."
+  ]
+}

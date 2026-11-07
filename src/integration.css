@@ -1,0 +1,32 @@
+.connection-page { max-width: 580px; margin: 12vh auto; padding: 24px; display: grid; gap: 20px; }
+.connection-page p { color: var(--muted); overflow-wrap: anywhere; }
+.connection-page .button { justify-self: start; }
+.connection-warning { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 20px; background: var(--pending-bg); color: var(--pending-ink); border-bottom: 1px solid var(--line); font-size: 12px; }
+.connection-warning span { overflow-wrap: anywhere; }
+.risk-unknown { color: var(--muted); background: var(--subtle); border-color: var(--line); }
+.confirmation-hint { padding: 10px; background: var(--pending-bg); color: var(--pending-ink); font-size: 12px; }
+.help-dialog form { display: grid; gap: 14px; }
+.help-dialog label { display: grid; gap: 7px; font-size: 13px; }
+.help-dialog textarea { width: 100%; min-height: 90px; resize: vertical; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); padding: 9px; border-radius: 4px; }
+.agent-trace pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.data-mode-note { max-width: 150px; white-space: normal; }
+.summary-band dd { font-size: 20px; }
+@media (max-width: 1199px) { .data-mode-note { max-width: 100px; font-size: 10px; } }
+@media (max-width: 767px) {
+  .command-room { min-width: 0; height: auto; min-height: 100dvh; }
+  .command-header { height: auto; min-height: 56px; flex-wrap: wrap; padding: 10px 12px; gap: 8px; }
+  .scope-switch { order: 3; }
+  .scope-long, .theme-button span, .help-button span, .data-mode-note { display: none; }
+  .summary-band { align-items: stretch; flex-direction: column; gap: 12px; padding: 16px 12px; }
+  .summary-band dl { justify-content: space-between; }
+  .summary-band dl > div { padding: 0 8px; min-width: 0; }
+  .summary-band dd { font-size: 18px; overflow-wrap: anywhere; }
+  .operations-grid { display: flex; flex-direction: column; }
+  .map-panel { order: -1; height: 480px; }
+  .queue-panel, .context-panel { min-height: 400px; border: 0; border-top: 1px solid var(--line); }
+  .panel-scroll { overflow: visible; }
+  .map-stage { min-height: 330px; }
+  .risk-legend > div { flex-wrap: wrap; }
+  .data-footer { flex-wrap: wrap; height: auto; gap: 8px; padding: 10px 12px; }
+  .connection-warning { align-items: start; }
+}

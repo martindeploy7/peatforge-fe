@@ -1,0 +1,163 @@
+{
+  "runId": "eba15dfe-5887-4ef4-83e8-dd85978c400e",
+  "status": "FAIL",
+  "visibility": {
+    "harness": "hidden",
+    "iframe": "hidden",
+    "iframeHasFocus": true,
+    "sampledAt": "2026-11-07T05:23:39.625Z"
+  },
+  "cameraWaitError": "Error: Timeout: native map ready (45s)",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "camera": {
+    "engine": "maplibre",
+    "zoom": 12.4,
+    "bearing": 0,
+    "pitch": 0,
+    "center": [
+      114.106,
+      -3.0905
+    ]
+  },
+  "results": [
+    {
+      "name": "Proposal desa → map/context",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "Evidence expand → trace",
+      "status": "PASS",
+      "assertion": "Evidence and actual trace panel open"
+    },
+    {
+      "name": "Query submit",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "Help open / close",
+      "status": "PASS"
+    },
+    {
+      "name": "Menu open / Escape",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "National unavailable / pilot return",
+      "status": "PASS"
+    },
+    {
+      "name": "Layer popover and risk/hatch switches",
+      "status": "PASS",
+      "assertion": "Actual checkbox states toggle and restore",
+      "telemetry": {
+        "engine": "maplibre",
+        "zoom": 12.4,
+        "bearing": 0,
+        "pitch": 0,
+        "center": [
+          114.106,
+          -3.0905
+        ]
+      }
+    },
+    {
+      "name": "Replay seek / play / pause",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "Share modal / local URL / close",
+      "status": "FAIL",
+      "error": "Error: Share URL is local and selected village"
+    },
+    {
+      "name": "SMS malformed guidance",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "SMS TIDAK rejects field report",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "SMS TELP local guidance",
+      "status": "FAIL",
+      "error": "TypeError: win is not a constructor"
+    },
+    {
+      "name": "Dismiss guide",
+      "status": "PASS"
+    },
+    {
+      "name": "Camera zoom in",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera zoom out",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera rotate left",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera north",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera pitch up",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera pitch down",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera 3D on",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera 3D off",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "Camera recenter selected village",
+      "status": "SKIP",
+      "skip": true,
+      "reason": "Native MapLibre belum siap; Error: Timeout: native map ready (45s)"
+    },
+    {
+      "name": "No runtime errors",
+      "status": "PASS"
+    }
+  ],
+  "runtimeErrors": [],
+  "limits": [
+    "Frontend synthetic DOM controls only; no backend or real SMS.",
+    "No clipboard write or physical device gesture validation.",
+    "Runtime listeners cover iframe load onward; initial app readiness is separately asserted."
+  ]
+}

@@ -1,0 +1,57 @@
+/* Triage keeps action, location, evidence and decision in one reading order. */
+.queue-panel .queue-scroll{padding:20px 16px;background:var(--surface)}
+.queue-panel .queue-heading{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--hairline)}
+.queue-panel .queue-heading .section-caption{font-size:11px;letter-spacing:.5px}
+.queue-panel .queue-heading h2{font-size:18px;line-height:1.35;margin:5px 0 0;letter-spacing:-.2px}
+.queue-panel .decision-chain{margin:0 0 12px}
+.queue-panel .decision-chain li>span{width:22px;height:22px;border-width:1px;font-size:11px}
+.queue-panel .decision-chain li>span svg{width:12px;height:12px}
+.queue-panel .decision-chain li::after{top:10px;height:1px}
+.queue-panel .decision-chain li.current>span{outline-width:2px}
+.queue-panel .decision-chain small{font-size:10px;margin-top:6px;line-height:1.4}
+.queue-panel .chain-description{font-size:12px;line-height:1.5;margin:0 0 16px}
+.queue-panel .proposal-list{border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-bottom:20px}
+.queue-panel .proposal-list:empty{display:none}
+.queue-panel .decision-card.triage-item{background:var(--surface);padding:16px 12px 12px;border:0;border-bottom:1px solid var(--line);border-radius:0;margin:0;box-shadow:none}
+.queue-panel .decision-card.triage-item:last-child{border-bottom:0}
+.queue-panel .decision-card.triage-item::before{display:none}
+.queue-panel .decision-top{gap:8px;row-gap:6px;align-items:center}
+.queue-panel .pending-badge{padding:0;border-radius:0;background:transparent;font-size:11px;font-weight:500;gap:6px}
+.queue-panel .pending-badge i{width:6px;height:6px;border-radius:2px}
+.queue-panel .decision-top .risk-badge{font-size:10px;border-radius:3px;padding:1px 4px;gap:4px}
+.queue-panel .decision-top .risk-bars{height:10px;transform:scale(.85);transform-origin:center}
+.queue-panel .decision-top time{font-size:10px;font-variant-numeric:tabular-nums}
+.queue-panel .triage-item h3{font-size:15px;line-height:1.4;font-weight:600;margin:12px 0 3px;letter-spacing:-.1px}
+.queue-panel .triage-item .decision-location{font-size:12px;margin:0;color:var(--muted)}
+.queue-panel .triage-item .decision-reason{font-size:12px;line-height:1.55;margin-top:12px;color:var(--ink)}
+.queue-panel .decision-benefit{display:flex;align-items:baseline;gap:6px 12px;margin:10px 0 8px;line-height:1.5}
+.queue-panel .decision-benefit strong{font-size:12px;padding:0;border-radius:0;background:transparent;color:var(--positive);white-space:nowrap}
+.queue-panel .decision-benefit>span{font-size:11px}
+.queue-panel .evidence{border-top:0;font-size:12px}
+.queue-panel .evidence summary{min-height:36px;padding:4px 0;color:var(--muted);font-size:12px;font-weight:500;gap:6px}
+.queue-panel .evidence summary:hover{color:var(--link)}
+.queue-panel .evidence summary::before{font-size:19px;width:10px}
+.queue-panel .evidence[open]{padding-bottom:12px}
+.queue-panel .evidence>div{border-top:1px solid var(--hairline);padding-top:12px}
+.queue-panel .evidence p{line-height:1.55;margin-bottom:10px}
+.queue-panel .evidence .text-button{min-height:32px}
+.queue-panel .decision-actions{grid-template-columns:1.2fr 1fr;gap:8px;margin:8px 0 0;padding-top:12px;border-top:1px solid var(--hairline)}
+.queue-panel .decision-actions .button{min-height:38px;border-radius:5px;font-size:12px}
+.queue-panel .decision-actions .button:not(.primary){border-color:transparent;background:transparent;color:var(--muted)}
+.queue-panel .decision-actions .button:not(.primary):hover:not(:disabled){background:var(--subtle);border-color:var(--line);color:var(--ink)}
+.queue-panel .queue-simulation{margin:0 0 20px}
+.queue-panel .queue-simulation .simulation-button{background:var(--surface);color:var(--ink);border-color:var(--line);border-radius:5px;font-size:12px;min-height:40px;font-weight:500}
+.queue-panel .queue-simulation .simulation-button:hover:not(:disabled){background:var(--subtle);filter:none;border-color:var(--muted)}
+.queue-panel .simulation-caption{font-size:11px;margin:8px 0 0;line-height:1.6}
+.queue-panel .quick-guide{background:transparent;border-top:1px solid var(--hairline);border-radius:0;padding:16px 0 0;margin:0 0 16px;font-size:12px}
+.queue-panel .quick-guide>div{margin-bottom:8px}
+.queue-panel .quick-guide .section-caption{font-size:10px;letter-spacing:.5px}
+.queue-panel .quick-guide ol{padding-left:16px;line-height:1.7;color:var(--muted)}
+.queue-panel .queue-footnote{font-size:11px;line-height:1.7;border-top:1px solid var(--hairline);padding-top:12px;margin:0;color:var(--muted)}
+.queue-panel .queue-empty{font-size:12px;padding:4px 0 20px;gap:8px}
+@media(pointer:coarse){.queue-panel .decision-actions .button,.queue-panel .queue-simulation .simulation-button,.queue-panel .evidence summary{min-height:44px}.queue-panel .quick-guide .close-button{min-width:44px;min-height:44px;justify-content:center;align-items:center}}
+@media(min-width:768px) and (max-width:1100px){.queue-panel .queue-scroll{padding:16px 12px}.queue-panel .queue-heading h2{font-size:17px}.queue-panel .decision-card.triage-item{padding:12px}.queue-panel .decision-top{gap:6px}.queue-panel .decision-top time{margin-left:auto}.queue-panel .triage-item h3{font-size:14px}}
+.queue-panel .queue-chain-caption{font-size:11px;color:var(--muted);font-weight:500;margin-bottom:12px}
+.queue-panel .decision-village-button{display:inline-flex;align-items:center;min-height:28px;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px;color:var(--muted);text-align:left}
+.queue-panel .decision-village-button:hover{color:var(--link);text-decoration-color:currentColor}
+@media(pointer:coarse){.queue-panel .decision-village-button{min-height:44px}}

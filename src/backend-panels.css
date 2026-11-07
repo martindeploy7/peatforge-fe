@@ -1,0 +1,40 @@
+.backend-panel { font-size: 12px; line-height: 1.5; min-width: 0; }
+.backend-panel h3 { margin: 0 0 12px; font-size: 14px; }
+.backend-panel h4 { margin: 8px 0; font-size: 12px; }
+.backend-panel p { margin: 8px 0; }
+.backend-panel details { margin: 10px 0; }
+.backend-panel summary { cursor: pointer; padding: 6px 0; font-weight: 500; }
+.backend-panel pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 10px; background: var(--subtle); padding: 10px; max-height: 280px; overflow: auto; }
+.backend-form { display: flex; flex-wrap: wrap; align-items: end; gap: 10px; margin: 12px 0; }
+.backend-form label { display: grid; gap: 4px; flex: 1 1 130px; }
+.backend-form input, .backend-form select, .backend-inline-label select { min-height: 36px; border: 1px solid var(--line); background: var(--surface); border-radius: 4px; padding: 5px 8px; min-width: 0; width: 100%; }
+.observation-form .observation-confirm { display: flex; align-items: flex-start; flex: 1 1 100%; gap: 8px; line-height: 1.5; }
+.observation-form .observation-confirm input { width: auto; min-height: auto; margin-top: 3px; accent-color: var(--link); }
+.observation-form-error { flex: 1 1 100%; color: var(--pending-ink); }
+.backend-inline-label { display: flex; align-items: center; gap: 12px; }
+.backend-inline-label select { width: auto; }
+.backend-source { color: var(--muted); font-size: 11px; overflow-wrap: anywhere; }
+.backend-fields { margin: 8px 0; }
+.backend-fields > div { display: grid; grid-template-columns: minmax(90px, 1fr) minmax(0, 2fr); gap: 12px; padding: 4px 0; border-bottom: 1px solid var(--hairline); }
+.backend-fields dt { color: var(--muted); overflow-wrap: anywhere; }
+.backend-fields dd { margin: 0; overflow-wrap: anywhere; }
+.backend-fields details { margin: 0; }
+.backend-fields summary { padding: 0; }
+.backend-row { padding: 10px 0; border-bottom: 1px solid var(--hairline); }
+.backend-benefit { padding: 12px 0; }
+.backend-metrics { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 8px; }
+.backend-metrics span { display: grid; color: var(--muted); }
+.backend-metrics b { color: var(--ink); font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+.backend-curve { margin: 14px 0; }
+.backend-curve svg { display: block; width: 100%; max-height: 180px; }
+.backend-curve path { fill: none; stroke-width: 2; vector-effect: non-scaling-stroke; }
+.backend-curve .curve-axis { stroke: var(--line); stroke-width: 1; }
+.backend-curve .curve-baseline { stroke: var(--ink); }
+.backend-curve .curve-scenario { stroke: var(--link); stroke-dasharray: 5 4; }
+.backend-curve-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; }
+.backend-table-scroll { max-height: 300px; overflow: auto; }
+.backend-table { border-collapse: collapse; width: 100%; }
+.backend-table th, .backend-table td { padding: 6px 8px; border-bottom: 1px solid var(--hairline); text-align: left; font-weight: 400; }
+.backend-table thead th { font-weight: 600; }
+.backend-table td:last-child { text-align: right; font-family: 'IBM Plex Mono', monospace; }
+@media (max-width: 600px) { .backend-form .button { width: 100%; } .backend-form input, .backend-form select, .backend-inline-label select { min-height: 44px; } }

@@ -1,0 +1,18 @@
+Manual-review freeze: 2026-11-07 13:09 WIB
+Directory: netlify-rebuild
+Command: npm test && npm run build && npm run check:boundary
+Unified exec session: 14631
+Exit code: 0
+
+Vitest 4.1.12: 5 test files passed, 29 tests passed.
+TypeScript: tsc --noEmit passed.
+Vite 7.3.7: 1757 modules transformed; built in 2.53s.
+Production CSS: index-Bg_adY9i.css, 106.35 kB (17.77 kB gzip).
+Production JS: index-CMmfwDTT.js, 1330.64 kB (370.51 kB gzip).
+Existing warning: some chunks exceed 500 kB after minification.
+Source boundary: 24 project files, registry dependencies only.
+
+Playwright retry: server startup failed with listen EPERM 127.0.0.1:5180.
+Default headless executable probe: Playwright Chromium executable unavailable.
+Installed Chrome headless probe: process exited SIGABRT; no browser test ran.
+These probes are not passing test results or evidence of an application defect.

@@ -1,0 +1,117 @@
+Final local verification: 2026-11-07T05:25:34.498169+00:00
+
+Command: npm run build
+
+> peatforge-netlify-rebuild@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1757 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                1.13 kB │ gzip:   0.64 kB
+dist/assets/ibm-plex-mono-latin-400-normal-CvHOgSBP.woff      13.14 kB
+dist/assets/ibm-plex-mono-latin-500-normal-CB9ihrfo.woff      13.16 kB
+dist/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2     14.71 kB
+dist/assets/ibm-plex-mono-latin-500-normal-DSY6xOcd.woff2     14.89 kB
+dist/assets/ibm-plex-sans-latin-400-normal-CYLoc0-x.woff      22.10 kB
+dist/assets/ibm-plex-sans-latin-700-normal-Bth3BMcD.woff      22.28 kB
+dist/assets/ibm-plex-sans-latin-400-normal-CDDApCn2.woff2     22.59 kB
+dist/assets/ibm-plex-sans-latin-700-normal-Bxkt5Cjx.woff2     22.83 kB
+dist/assets/ibm-plex-sans-latin-600-normal-Cu4Hd6ag.woff      23.88 kB
+dist/assets/ibm-plex-sans-latin-500-normal-BgVn5rGT.woff      23.92 kB
+dist/assets/ibm-plex-sans-latin-500-normal-6ng42L7E.woff2     24.18 kB
+dist/assets/ibm-plex-sans-latin-600-normal-CuJfVYMP.woff2     24.25 kB
+dist/assets/index-ClURqaUL.css                               106.07 kB │ gzip:  17.71 kB
+dist/assets/index-BdUgdRHS.js                              1,329.55 kB │ gzip: 370.20 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.53s
+Exit code: 0
+
+Command: npm test
+
+> peatforge-netlify-rebuild@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/martintarigan7/Downloads/peatforge-rehearsal/netlify-rebuild
+
+
+ Test Files  5 passed (5)
+      Tests  29 passed (29)
+   Start at  12:25:39
+   Duration  592ms (transform 434ms, setup 0ms, import 965ms, tests 185ms, environment 0ms)
+
+Exit code: 0
+
+Command: npm run check:boundary
+
+> peatforge-netlify-rebuild@0.1.0 check:boundary
+> node scripts/check-boundary.mjs
+
+Source boundary passed: 24 project files, registry dependencies only.
+Exit code: 0
+
+Final validation 2026-11-07T12:35:01.916979
+$ npm run build
+
+> peatforge-netlify-rebuild@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1757 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                1.13 kB │ gzip:   0.65 kB
+dist/assets/ibm-plex-mono-latin-400-normal-CvHOgSBP.woff      13.14 kB
+dist/assets/ibm-plex-mono-latin-500-normal-CB9ihrfo.woff      13.16 kB
+dist/assets/ibm-plex-mono-latin-400-normal-DMJ8VG8y.woff2     14.71 kB
+dist/assets/ibm-plex-mono-latin-500-normal-DSY6xOcd.woff2     14.89 kB
+dist/assets/ibm-plex-sans-latin-400-normal-CYLoc0-x.woff      22.10 kB
+dist/assets/ibm-plex-sans-latin-700-normal-Bth3BMcD.woff      22.28 kB
+dist/assets/ibm-plex-sans-latin-400-normal-CDDApCn2.woff2     22.59 kB
+dist/assets/ibm-plex-sans-latin-700-normal-Bxkt5Cjx.woff2     22.83 kB
+dist/assets/ibm-plex-sans-latin-600-normal-Cu4Hd6ag.woff      23.88 kB
+dist/assets/ibm-plex-sans-latin-500-normal-BgVn5rGT.woff      23.92 kB
+dist/assets/ibm-plex-sans-latin-500-normal-6ng42L7E.woff2     24.18 kB
+dist/assets/ibm-plex-sans-latin-600-normal-CuJfVYMP.woff2     24.25 kB
+dist/assets/index-ClURqaUL.css                               106.07 kB │ gzip:  17.71 kB
+dist/assets/index-DrfGIU1f.js                              1,329.56 kB │ gzip: 370.20 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.55s
+
+EXIT_CODE=0
+$ npm test
+
+> peatforge-netlify-rebuild@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/martintarigan7/Downloads/peatforge-rehearsal/netlify-rebuild
+
+
+ Test Files  5 passed (5)
+      Tests  29 passed (29)
+   Start at  12:35:06
+   Duration  624ms (transform 574ms, setup 0ms, import 1.12s, tests 181ms, environment 0ms)
+
+
+EXIT_CODE=0
+$ npm run check:boundary
+
+> peatforge-netlify-rebuild@0.1.0 check:boundary
+> node scripts/check-boundary.mjs
+
+Source boundary passed: 24 project files, registry dependencies only.
+
+EXIT_CODE=0

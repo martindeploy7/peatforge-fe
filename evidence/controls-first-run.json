@@ -1,0 +1,31 @@
+{
+  "runId": "a1c23a72-dccc-45cf-a269-1a609fb7a7f0",
+  "status": "FAIL",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "camera": {
+    "engine": "maplibre",
+    "zoom": 12.4,
+    "bearing": 0,
+    "pitch": 0,
+    "center": [
+      114.106,
+      -3.0905
+    ]
+  },
+  "results": [
+    {
+      "name": "setup",
+      "status": "FAIL",
+      "error": "Error: Timeout: initial app and map"
+    }
+  ],
+  "runtimeErrors": [],
+  "limits": [
+    "Frontend synthetic DOM controls only; no backend or real SMS.",
+    "No clipboard write or physical device gesture validation.",
+    "Runtime listeners cover iframe load onward; initial app readiness is separately asserted."
+  ]
+}

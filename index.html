@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102b29" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>PeatForge</title>
+  </head>
+  <body>
+    <div id="root"><p role="status" style="padding:24px;font-family:sans-serif">Memuat PeatForge…</p></div>
+    <noscript>Aplikasi PeatForge memerlukan JavaScript.</noscript>
+    <script>
+      window.addEventListener("error", function (event) {
+        if (!event.message && !(event.target instanceof HTMLScriptElement)) return;
+        const root = document.getElementById("root");
+        if (root && root.querySelector('[role="status"]')) {
+          root.textContent = "Aplikasi gagal dimuat: " + (event.message || "modul JavaScript tidak dapat diakses");
+          root.setAttribute("role", "alert");
+        }
+      }, true);
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
